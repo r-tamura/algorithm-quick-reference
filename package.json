@@ -1,5 +1,6 @@
 {
   "name": "workspace",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/r-tamura/algorithm-quick-reference.git",
@@ -11,11 +12,14 @@
   "devDependencies": {
     "@types/mocha": "^5.2.0",
     "@types/power-assert": "^1.5.0",
+    "husky": "^0.14.3",
     "mocha": "^5.1.1",
     "power-assert": "^1.5.0",
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.4.1",
     "ts-mocha": "^1.2.0"
   },
   "scripts": {
-    "test": "ts-mocha ./**/*.spec.ts"
+    "precommit": "pretty-quick --staged"
   }
 }

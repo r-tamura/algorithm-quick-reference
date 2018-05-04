@@ -4,6 +4,8 @@ build-watch: ## watch file changes
 	@tsc -w
 check: ## static type check
 	@tsc --noEmit
+prettier: ## run code formatter with over write option
+	@yarn prettier --write "[1-9]*/*.ts"
 test:  ## test with ts-mocha
 	@ts-mocha [1-9]*/*.spec.ts
 
