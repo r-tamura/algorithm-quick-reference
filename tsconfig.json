@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "target":
-      "ES2017" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */,
-    "module":
-      "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
-    "sourceMap": true /* Generates corresponding '.map' file. */,
-    "outDir": "./bin/" /* Redirect output structure to the directory. */
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./bin/",
+    "lib": ["es2017", "dom"]
   },
   "include": ["4-sorting/ex/*", "5-searching/ex/*"]
 }
