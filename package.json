@@ -6,9 +6,7 @@
   "repository": "https://github.com/r-tamura/algorithm-quick-reference.git",
   "author": "r-tamura <rtamura30@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "typescript": "^2.8.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/mocha": "^5.2.0",
     "@types/power-assert": "^1.5.0",
@@ -17,7 +15,8 @@
     "power-assert": "^1.5.0",
     "prettier": "^1.12.1",
     "pretty-quick": "^1.4.1",
-    "ts-mocha": "^1.2.0"
+    "ts-mocha": "^1.2.0",
+    "typescript": "^3.0.3"
   },
   "scripts": {
     "precommit": "pretty-quick --staged"

@@ -1,3 +1,3 @@
-import sequentialSearch from "../sequential-search"
+import sequentialSearch from "../sequential-search";
 
-console.log(sequentialSearch<Number>([1, 2, 3], 3))
+console.log(sequentialSearch<Number>([1, 2, 3], 3)); // true
