@@ -1,3 +1,4 @@
+import { swap } from "./util";
 /**
  *  選択ソート Inserertion Sort
  *
@@ -20,12 +21,6 @@ function insert<T = Number>(array: T[], position: number, value: T): T[] {
     i = i - 1;
   }
   return array;
-}
-
-function swap<T>(array: T[], left: number, right: number) {
-  const temp = array[left];
-  array[left] = array[right];
-  array[right] = temp;
 }
 
 export { insertationSort };
